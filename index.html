@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
   <title>Frontend Mentor | Huddle landing page with split benefits section</title>
 
   <!-- Feel free to remove these styles or customize in your own stylesheet 👍 
@@ -13,30 +17,61 @@
   </style>-->
 </head>
 <body>
-  Try it free
-
-  Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
-
-  Get Started For Free
-
-  Grow Together
+    <div class="topnav" id="myTopnav">
+      <div id="navContainer">
+        <img class="logo" src="images/logo.svg">
+        
+    <button type="button" class="navButton">Try it Free</button>
+    </div>
+    <br>
+    <section>
+    <div class="build" id="buildnav">
+    <div id="buildContainer">
+    <h3 class="buildComm">Build The Community Your Fans Will Love</h3>
+    <br>
+    <p class="commInfo">
+      Huddle re-imagines the way we build communities. You have a voice,
+      but so does your audience. Create connections with your users as you engage in genuine discussion. 
+    </p>
+    <br>
+    <button type="button" class="startFree">Get Started For Free</button>
+    <br>
+    </div>
+    </div>
+    </section>
+    <br>
+    <div class="screen-mockups">
+  <img class="imgscreen" src="images/screen-mockups.svg">
+    </div>
+  <br>
+  <aside>
+  <div id="growth">
+    <div id="growContainer">
+  <h3>Grow Together</h3>
+      <br>
+  <p class="growthInfo">
   Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
+  Think of the insightful conversations you miss out on with a feedback form. </p>
 
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
+  <h3>Flowing Conversations</h3>
+  <br>
+  <p class="flowingInfo">You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+  just-in-time loading for a more natural flow.</p>
 
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
+  <h3>Your Users</h3>
+  <br>
+  <p class="userInfo">It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+  once signed in to your app, your users can start chatting immediately.</p>
+    </div>
+  </div>
+  </aside>
+<img src="images/illustration-your-users.svg">
 
-  Ready To Build Your Community?
-  Get Started For Free
+    </div>
 
+  <h3>Ready To Build Your Community?</h3>
+  <button type="button" class="startFree">Get Started For Free</button>
+<div class="contact">
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit tincidunt risus eget 
   vestibulum. Integer vel ligula dictum.
   
@@ -51,7 +86,7 @@
   Subscribe
 
   &copy; 2018 Huddle Copyright
-
+</div>
   <footer>
     <p class="attribution">
       This page started life as a challenge on <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a> 🎉
